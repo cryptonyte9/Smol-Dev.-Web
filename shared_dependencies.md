@@ -1,31 +1,28 @@
-1. Next.js: This is the main framework used for building the website. It is used in all the .js files.
+1. Dependencies: 
+   - "next": Next.js framework for building the website.
+   - "react": Library for building user interfaces.
+   - "tailwindcss": Utility-first CSS framework for rapidly building custom designs.
+   - "bitcoinjs-lib": JavaScript library for Bitcoin cryptography.
+   - "dotenv": Module that loads environment variables from a .env file into process.env.
 
-2. Tailwind CSS: This is the CSS framework used for styling the website. It is used in all the .css files and in the tailwind.config.js file.
+2. Exported Variables:
+   - "InscribeButton" and "MintButton" from their respective component files.
+   - "brc721" from "lib/brc721.js".
+   - "bitcoin" from "lib/bitcoin.js".
 
-3. React: This is the library used for building the user interface. It is used in all the .js files.
+3. Data Schemas:
+   - "brc721" schema in "lib/brc721.js" for BRC721 token.
+   - "bitcoin" schema in "lib/bitcoin.js" for Bitcoin blockchain.
 
-4. BRC721 Token: This is the type of token that the website interacts with. It is used in the brc721.js file.
+4. ID Names of DOM Elements:
+   - "inscribe-button" in "InscribeButton.js".
+   - "mint-button" in "MintButton.js".
 
-5. InscribeButton: This is a component that represents the inscribe button. It is used in the index.js file and has its own .js and .css files.
+5. Message Names:
+   - "INSRIBE_SUCCESS" and "INSRIBE_ERROR" in "api/inscribe.js".
+   - "MINT_SUCCESS" and "MINT_ERROR" in "api/mint.js".
 
-6. MintButton: This is a component that represents the mint button. It is used in the index.js file and has its own .js and .css files.
-
-7. _app.js: This is the main component that wraps all the pages. It is used in the index.js file.
-
-8. globals.css: This is the global stylesheet. It is used in the _app.js file.
-
-9. InscribeButton.module.css: This is the stylesheet for the InscribeButton component. It is used in the InscribeButton.js file.
-
-10. MintButton.module.css: This is the stylesheet for the MintButton component. It is used in the MintButton.js file.
-
-11. favicon.ico and vercel.svg: These are the icons used in the public directory.
-
-12. package.json: This file contains the list of project dependencies. It is used by all the .js files.
-
-13. postcss.config.js: This file is used for processing CSS with PostCSS. It is used by all the .css files.
-
-14. .env.local: This file contains environment variables. It is used by the brc721.js file.
-
-15. .gitignore: This file specifies intentionally untracked files that Git should ignore. It is used by the entire project.
-
-16. README.md: This file contains information about the project. It is used by the entire project.
+6. Function Names:
+   - "inscribeToken" in "api/inscribe.js".
+   - "mintToken" in "api/mint.js".
+   - "createBrc721" and "createBitcoin" in "lib/brc721.js" and "lib/bitcoin.js" respectively.
